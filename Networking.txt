@@ -1,0 +1,17 @@
+1. Asia bank company -> headquater in Edinburg.
+2. Bank set up 2 atm in Nepal
+3. The two locations are Itahari and Butwal.
+4. Each network consists of 30 ATM transaction nodes plus one single 
+teller giving total of 31 ATMs each in a LAN. 
+5. Nepal LAN is set up using 802.3 CSMA/CD 10 BaseT Ethernet Network.
+6. Edinburg LAN is set up using 802.5 16 Mbps token passing standard with an ATM
+ processing each.
+7. LANs is connected to frame relay cloud through cisco 7010sp, V10.0 router.
+8. The tunnel from LAN to WAN and links in the WAN have transmission rate of 16 Kbps.
+9. The tunnel from the WAN to LAN has transmission of 128 kbps.
+10.ATM usage generate 2 transactions per minute in each atm
+11.interarrival time with exponential distribution 0.5 with stream 2.
+12. side of ATM authorization req can be described by a uniform distribution where
+size is evenly dispersed over the range of 50 to 100 bytes with stream 2.
+13. all atm req are processed at edinburgh server that responds msg that ca be
+explained wiith uniform probability distribution.

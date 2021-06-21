@@ -1,0 +1,145 @@
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     1
+
+                            Coursework_NOS_19031603                             
+
+                         NODES: RECEIVED MESSAGE COUNTS                         
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+      RECEIVER            COUNT                   MESSAGE NAME
+______________________  __________  _________________________________________
+
+Edinburgh LAN.ATM Proc       954    Butwal Message Source                    
+Edinburgh LAN.ATM Proc       927    Itahari Message Source                   
+Edinburgh LAN.ATM Proc         3    Single Teller Message Source             
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     2
+
+                            Coursework_NOS_19031603                             
+
+                           LINKS: CHANNEL UTILIZATION                           
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+                             FRAMES           TRANSMISSION DELAY (MS)       %
+LINK                   DELIVERED RST/ERR  AVERAGE    STD DEV    MAXIMUM   UTIL
+_____________________  _________ ______  _________  _________  _________  _____
+
+Itahari LAN.Ethernet L     19531      0      0.073      0.028      0.691 2.3248
+Edinburgh LAN.Edinburg     13050      0      0.037      0.013      0.082 0.8132
+Butwal LAN.Ethernet Li     19402      0      0.073      0.028      0.691 2.3138
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     3
+
+                            Coursework_NOS_19031603                             
+
+                         WAN CLOUDS: FRAME DELAY BY VC                          
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+CLOUD:                      FRAME DELAY (MS)               BURST SIZE (kb)
+  VC                      AVG      STD      MAX           AVG           MAX
+______________________  _______  _______  _______    ____________  ____________
+
+WAN Cloud
+  Edinburgh - Itahari        16        0       17             114           254
+  Butwal - Edinburgh       1270      722     2522             161           320
+  Itahari - Edinburgh      1272      719     2520             161           320
+  Edinburgh -  Butwal        16        0       17             114           257
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     4
+
+                            Coursework_NOS_19031603                             
+
+                         WAN CLOUDS: FRAME COUNTS BY VC                         
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+CLOUD:                                    FRAMES / KILOBITS
+  VC:  FRAMES                    ACCEPTED                     DROPPED
+       KILOBITS            NORMAL          DE           NORMAL          DE
+______________________  ____________  ____________   ____________  ____________
+
+WAN Cloud               (TOTAL KILOBITS TRANSMITTED =         5300 )
+  Edinburgh - Itah Frm          2304           964              0             0
+                    kb           737           308              0             0
+  Butwal - Edinbur Frm          1619          1637              0          9762
+                    kb           803           803              0          4824
+  Itahari - Edinbu Frm          1618          1645              0          9811
+                    kb           802           803              0          4819
+  Edinburgh -  But Frm          2304           955              0             0
+                    kb           737           306              0             0
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     5
+
+                            Coursework_NOS_19031603                             
+
+                         WAN CLOUDS: ACCESS LINK STATS                          
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+CLOUD:                            FRAMES            BUFFER (BYTES)       % UTIL
+  ACCESS LINK  (ENTRY)     ACCEPTED    DROPPED    MAX     AVG     STD          
+               (EXIT)                                                          
+________________________  __________  _________  ______  ______  ______  ______
+
+WAN Cloud
+  Edinburgh Access Entry        6529          0    N/A     N/A     N/A    35.37
+                    Exit        6521          0   33930    8385   10812   49.97
+  Itahari Access   Entry        3265       9811    N/A     N/A     N/A   100.00
+                    Exit        3268          0      80       7      15   17.70
+  Butwal Access    Entry        3256       9762    N/A     N/A     N/A   100.00
+                    Exit        3260          0      80       7      15   17.66
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     6
+
+                            Coursework_NOS_19031603                             
+
+                   MESSAGE + RESPONSE SOURCES: MESSAGE DELAY                    
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Itahari LAN.ATM Transaction Node / src Itahari Message Source:
+  Edinburgh LAN.ATM Pr        512   35856.818 MS  12547.768 MS  69387.948 MS
+Itahari LAN.Single Teller Machine / src Single Teller Message Source:
+  Edinburgh LAN.ATM Pr          0       0.000 MS      0.000 MS      0.000 MS
+Edinburgh LAN.ATM Processing Server / src Response source for Edinburgh:
+  ECHO                          0       0.000 MS      0.000 MS      0.000 MS
+Butwal LAN.ATM transaction Node / src Butwal Message Source:
+  Edinburgh LAN.ATM Pr        499   37614.646 MS  12745.127 MS  70576.167 MS
+Butwal LAN.Single Teller Machine / src Single Teller Message Source:
+  Edinburgh LAN.ATM Pr          1   33968.535 MS      0.000 MS  33968.535 MS
+
+
+Compuware COMNET III  Release 2.5.2.814  Fri Dec 25 19:41:34 2020   PAGE     7
+
+                            Coursework_NOS_19031603                             
+
+                 MESSAGE + RESPONSE SOURCES: MESSAGE DELIVERED                  
+
+                    REPLICATION 1 FROM 15.0 TO 75.0 SECONDS                     
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Itahari LAN.ATM Transaction Node / src Itahari Message Source:
+  Edinburgh LAN.ATM Pr        927   26774.505 MS  12273.069 MS  60831.198 MS
+Itahari LAN.Single Teller Machine / src Single Teller Message Source:
+  Edinburgh LAN.ATM Pr          1   47541.531 MS      0.000 MS  47541.531 MS
+Edinburgh LAN.ATM Processing Server / src Response source for Edinburgh:
+  ECHO                          0       0.000 MS      0.000 MS      0.000 MS
+Butwal LAN.ATM transaction Node / src Butwal Message Source:
+  Edinburgh LAN.ATM Pr        954   27009.200 MS  12485.479 MS  63410.625 MS
+Butwal LAN.Single Teller Machine / src Single Teller Message Source:
+  Edinburgh LAN.ATM Pr          2   27620.207 MS   3046.105 MS  30666.312 MS

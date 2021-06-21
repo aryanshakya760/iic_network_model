@@ -1,0 +1,37 @@
+ |CONFIG:WAN Cloud.Edinburgh Access:BusyLevelX:1|      199
+ |CONFIG:WAN Cloud.Edinburgh Access:BusyLevelY:1|      395
+ |CONFIG:WAN Cloud.Edinburgh Access:OutBufferLevel:1|      591
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:FrmDelay:1|      800
+ |CLDVC:WAN Cloud:Edinburgh - Itahari:Burst:1|      991
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:FrmDelay:1|     1179
+ |CLDVC:WAN Cloud:Butwal - Edinburgh:Burst:1|     1368
+ |CLDVC:WAN Cloud:Itahari - Edinburgh:FrmDelay:1|     1554
+ |CLDVC:WAN Cloud:Itahari - Edinburgh:Burst:1|     1745
+ |CLDVC:WAN Cloud:Edinburgh -  Butwal:FrmDelay:1|     1933
+ |CLDVC:WAN Cloud:Edinburgh -  Butwal:Burst:1|     2124
+ |CONFIG:WAN Cloud.Itahari Access:BusyLevelX:1|     2312
+ |CONFIG:WAN Cloud.Itahari Access:BusyLevelY:1|     2504
+ |CONFIG:WAN Cloud.Itahari Access:OutBufferLevel:1|     2696
+ |CONFIG:WAN Cloud.Butwal Access:BusyLevelX:1|     2901
+ |CONFIG:WAN Cloud.Butwal Access:BusyLevelY:1|     3091
+ |CONFIG:WAN Cloud.Butwal Access:OutBufferLevel:1|     3281
+ |CONFIG:Itahari LAN.Ethernet Link:BusyLevelX:1|     3484
+ |CONFIG:Itahari LAN.Ethernet Link:BusyLevelY:1|     3678
+ |CONFIG:Itahari LAN.Ethernet Link:tokendelayX:1|     3872
+ |CONFIG:Itahari LAN.Ethernet Link:tokendelayY:1|     4060
+ |Msg:Itahari LAN.ATM Transaction Node:Itahari Message Source:Edinburgh LAN.ATM Processing Server:transcmdtokendly:1|     4248
+ |Msg:Itahari LAN.ATM Transaction Node:Itahari Message Source:Edinburgh LAN.ATM Processing Server:transcmddelivered:1|     4567
+ |Msg:Itahari LAN.Single Teller Machine:Single Teller Message Source:Edinburgh LAN.ATM Processing Server:transcmdtokendly:1|     4887
+ |Msg:Itahari LAN.Single Teller Machine:Single Teller Message Source:Edinburgh LAN.ATM Processing Server:transcmddelivered:1|     5220
+ |CONFIG:Edinburgh LAN.Edinburgh Token Passing Link:BusyLevelX:1|     5554
+ |CONFIG:Edinburgh LAN.Edinburgh Token Passing Link:tokendelayX:1|     5782
+ |Msg:Edinburgh LAN.ATM Processing Server:Response source for Edinburgh::ECHO:transcmdtokendly:1|     6004
+ |Msg:Edinburgh LAN.ATM Processing Server:Response source for Edinburgh::ECHO:transcmddelivered:1|     6283
+ |CONFIG:Butwal LAN.Ethernet Link:BusyLevelX:1|     6563
+ |CONFIG:Butwal LAN.Ethernet Link:BusyLevelY:1|     6755
+ |CONFIG:Butwal LAN.Ethernet Link:tokendelayX:1|     6947
+ |CONFIG:Butwal LAN.Ethernet Link:tokendelayY:1|     7133
+ |Msg:Butwal LAN.ATM transaction Node:Butwal Message Source:Edinburgh LAN.ATM Processing Server:transcmdtokendly:1|     7319
+ |Msg:Butwal LAN.ATM transaction Node:Butwal Message Source:Edinburgh LAN.ATM Processing Server:transcmddelivered:1|     7634
+ |Msg:Butwal LAN.Single Teller Machine:Single Teller Message Source:Edinburgh LAN.ATM Processing Server:transcmdtokendly:1|     7950
+ |Msg:Butwal LAN.Single Teller Machine:Single Teller Message Source:Edinburgh LAN.ATM Processing Server:transcmddelivered:1|     8281
